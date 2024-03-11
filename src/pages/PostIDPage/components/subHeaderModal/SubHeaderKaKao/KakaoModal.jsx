@@ -59,8 +59,8 @@ const KakaoModal = ({ setKakaoOpen, value, setToastStatus }) => {
         {
           title: '웹으로 보기',
           link: {
-            mobileWebUrl: `${Link_DOMAIN}post/${value}/`,
-            webUrl: `${Link_DOMAIN}post/${value}/`,
+            mobileWebUrl: `${Link_DOMAIN}post/${value.userId}/`,
+            webUrl: `${Link_DOMAIN}post/${value.userId}/`,
           },
         },
       ],
