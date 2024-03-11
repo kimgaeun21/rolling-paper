@@ -2,7 +2,7 @@
 import * as S from './KakaoModal.style';
 
 // const BASE_URL = 'https://rolling-api.vercel.app/4-11/';
-const Link_DOMAIN = 'https://develop--rolling-paper-4-11.netlify.app/';
+const Link_DOMAIN = 'https://rolling-paper-4-11.netlify.app/';
 
 const KakaoModal = ({ setKakaoOpen, value, setToastStatus }) => {
   const modalRef = useRef(null);
